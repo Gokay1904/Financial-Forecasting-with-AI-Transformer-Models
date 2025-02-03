@@ -1,36 +1,36 @@
 # Financial Sentiment Analysis for Stock Price Prediction
 
 ## Overview
-This repository contains the code and datasets used in a study exploring the correlation between sentiment scores derived from financial text data, specifically tweets, and stock prices. The goal is to demonstrate how fluctuations in stock prices correspond with emotional scores from relevant financial texts over various time frames.
+This repository contains code and datasets for exploring the correlation between **sentiment analysis** of financial text (tweets) and **stock price prediction**. The goal is to demonstrate how **emotional sentiment** from financial texts can impact **stock market movements** over time.
 
-## Purpose of the Study
-The study aims to:
-- Establish a significant link between sentiment scores and stock price movements.
-- Examine the effectiveness of sentiment scores over different time intervals.
-- Explore the impact of sentiment scores on stock prices using various algorithms.
-- Validate the findings using different time scales and a set of validation metrics.
+## Purpose
+- Establish a significant link between **sentiment scores** and **stock price fluctuations**.
+- Evaluate sentiment's effect over different **time frames**.
+- Use **machine learning algorithms** for price prediction.
+- Validate using **metrics** like **MSE**, **RMSE**, **R²**, and **correlation coefficients**.
 
-## Scope and Usage
-We utilized sentiment scores obtained by applying two methods:
-- **RoBERTa**: A transformer model for extracting sentiment scores.
-- **VADER**: A lexicon and rule-based sentiment analysis tool.
+## Key Methods
+- **Sentiment Analysis**:
+  - **RoBERTa**: Transformer model for extracting **sentiment scores**.
+  - **VADER**: Lexicon-based sentiment analysis tool.
+- **Machine Learning**:
+  - Regression and classification models to predict **stock prices**.
+  - Various algorithms tested to assess **accuracy** and **predictive power**.
 
-These methods were used to predict stock price changes, examining the effect of neutral and positive sentiment scores. The predictions were validated using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R² scores, and correlation coefficients.
-
-## Applications
-- **Computational Finance**: To understand market sentiment and its impact on stock prices.
-- **Quantitative Analysis**: For developing models that can detect price movement signals based on sentiment analysis.
-
-## Dataset
-The dataset comprises tweets related to financial markets and stock price data. It is sourced from Kaggle and is used to train machine learning models for both regression and classification tasks.
-
+## Data
+- Tweets related to **financial markets**.
+- **Stock price data** sourced from **Kaggle** for **training machine learning models**.
+  
 ## Validation Metrics
-To ensure the accuracy of predictions, the following metrics were used:
 - **Mean Squared Error (MSE)**
 - **Root Mean Squared Error (RMSE)**
 - **R² Score**
-- **Pearson Correlation Coefficients and P-values**
+- **Pearson Correlation Coefficient**
 
-## Models and Timeframes
-The study tests various machine learning models across different time intervals to identify the most effective approach for price prediction.
+## Applications
+- **Computational Finance**: Understanding the impact of market **sentiment** on stock prices.
+- **Quantitative Analysis**: Building predictive models based on **financial data** and sentiment analysis.
+
+## Keywords:
+**Sentiment Analysis**, **Stock Price Prediction**, **RoBERTa**, **VADER**, **Machine Learning**, **Time Series Forecasting**, **Financial Text**, **Kaggle Dataset**, **Regression Models**, **Classification Models**, **MSE**, **RMSE**, **R² Score**, **Pearson Correlation**, **Predictive Analytics**, **Natural Language Processing (NLP)**, **Data Science**, **Stock Market Prediction**, **Financial Analysis**, **Algorithm Evaluation**, **Data Validation**.
 
